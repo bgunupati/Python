@@ -6,4 +6,9 @@ services:
     container_name: python-3.14-slim
     ports:
       - "8000:8000"
+    networks:
+      - python-network
     command: ["sleep", "infinity"]
+networks:
+  python-network:
+    driver: bridge
