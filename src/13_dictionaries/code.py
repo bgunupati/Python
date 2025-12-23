@@ -15,3 +15,12 @@ friends =[
 ]
 
 print(friends[1]["name"])
+
+
+studnet_attendance = {"Rolf": 96, "Bob": 80, "Anne": 100}
+for student in studnet_attendance:
+    print(f"{student}: {studnet_attendance[student]}%") 
+
+for student, attendance in studnet_attendance.items():
+    print(f"{student}: {attendance}%")
+
