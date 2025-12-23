@@ -1,0 +1,92 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib66/
+lib32/
+lib64/
+libarm64/
+libarm/
+libs/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.whl
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+bin/
+include/
+lib/
+src/venv/
+# PEP 582; used by e.g. github.com/David-OConnor/pyflow and github.com/pdm-project/pdm
+__pypackages__/
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.log
+.pytest_cache/
+# TeamCity a.k.a. jetbrains s.r.o.
+teamcity-build.properties
+teamcity-build.xml
+
+# Sphinx documentation
+docs/_build/
+
+# PyLint
+.pylint.d/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IPython History and Notebook's Review
+.ipython_history
+.mbeddm
+jupyter_notebook_config.py
+
+# Miscellaneous
+.webassets-cache
+.scrapy
+celerybeat-schedule
+celerybeat.pid
+rebar3.crashdump
+pids/
+logs/
+*.sqlite3
+*.db-journal
+*.log
+
+# Editors and IDEs
+# PyCharm
+.idea/
+# VS Code
+.vscode/
+# Sublime
+*.sublime-project
+*.sublime-workspace

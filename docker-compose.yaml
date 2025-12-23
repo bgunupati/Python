@@ -1,0 +1,9 @@
+services:
+  python-3.14-slim:
+    build: .
+    volumes:
+      - ./src:/app
+    container_name: python-3.14-slim
+    ports:
+      - "8000:8000"
+    command: ["sleep", "infinity"]
