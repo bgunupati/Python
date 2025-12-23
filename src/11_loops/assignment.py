@@ -6,7 +6,6 @@ for number in numbers:
     if number % 2 == 0:
         evens.append(number)
 
-
 # -- Part 2, must be completed before submitting! --
 user_input = input("Enter your choice (a-add / q-quit): ")
 if user_input == "a":
