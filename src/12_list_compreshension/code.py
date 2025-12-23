@@ -12,3 +12,7 @@ starts_b =[friend for friend in friends if friend.startswith("B")]
 print(friends)
 print(starts_b)
 print(friends is starts_b)
+print("friends: ", id(friends), "starts_b: ", id(starts_b))
+
+starts_b = friends
+print(friends is starts_b)  # Not a list comprehension, just assignment. Here the lists are same.
