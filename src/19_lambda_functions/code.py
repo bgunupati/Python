@@ -29,4 +29,4 @@ doubled = [(lambda x:x * 2)(x) for x in sequence]
 print(doubled)
 
 doubled = map((lambda x:x * 2), sequence)
-print(list(doubled))    
+print(list(doubled))
